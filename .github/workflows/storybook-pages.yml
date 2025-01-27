@@ -17,7 +17,7 @@ jobs:
                   ref: trunk
 
             - name: Use desired version of NodeJS
-              uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516 # v3.5.1
+              uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4.2.0
               with:
                   node-version-file: '.nvmrc'
                   cache: npm
